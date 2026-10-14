@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>YELLOW FIT, UNMATCHED AURA ☀️✨</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family: Arial, sans-serif;
+    }
+
+    .video-page {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    /* BACKGROUND IMAGE */
+    .background {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: -2;
+    }
+
+    /* DARK OVERLAY */
+    .video-page::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.20);
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    /* VIDEO CONTAINER */
+    .video-container {
+      width: 100%;
+      max-width: 600px;
+      position: relative;
+    }
+
+    /* VIDEO PLAYER */
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 85vh;
+      border-radius: 12px;
+      background: #000;
+      object-fit: contain;
+    }
+
+    /* PLAY BUTTON */
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 5;
+      padding: 16px 28px;
+      border: 2px solid rgba(255, 255, 255, 0.85);
+      border-radius: 50px;
+      background: linear-gradient(135deg, #ff2f92, #ff83bd);
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      white-space: nowrap;
+      cursor: pointer;
+      box-shadow: 0 5px 25px rgba(255, 47, 146, 0.5);
+      transition: transform 0.25s, box-shadow 0.25s;
+      animation: pulse 1.8s infinite;
+    }
+
+    .play-button:hover {
+      transform: translate(-50%, -50%) scale(1.06);
+      box-shadow: 0 7px 30px rgba(255, 47, 146, 0.7);
+    }
+
+    .play-button:focus-visible {
+      outline: 3px solid white;
+      outline-offset: 4px;
+    }
+
+    .play-button.hidden {
+      display: none;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 5px 20px rgba(255, 47, 146, 0.4);
+      }
+
+      50% {
+        box-shadow: 0 5px 30px rgba(255, 47, 146, 0.8);
+      }
+    }
+
+    /* HIDE HISTATS COUNTER */
+    #histats_counter {
+      display: none !important;
+    }
+
+    @media (max-width: 600px) {
+      .video-page {
+        padding: 12px;
+      }
+
+      .video-container {
+        max-width: 100%;
+      }
+
+      video {
+        border-radius: 8px;
+      }
+
+      .play-button {
+        padding: 13px 22px;
+        font-size: 14px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .play-button {
+        animation: none;
+        transition: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="video-page">
+
+    <!-- BACKGROUND IMAGE -->
+    <img
+      class="background"
+      src="https://cdn.aceimg.com/JQbByjukO.png"
+      alt=""
+      aria-hidden="true"
+    >
+
+    <!-- VIDEO PLAYER -->
+    <div class="video-container">
+
+      <video
+        id="myVideo"
+        loop
+        playsinline
+        controls
+        preload="metadata"
+        poster="https://cdn.aceimg.com/jjWbZ8kxF.png">
+
+        <source
+          src="https://cdn.videy.co/ZGXeqdHX1.mp4"
+          type="video/mp4">
+
+        Browser kamu tidak mendukung video HTML5.
+      </video>
+
+      <!-- CUSTOM PLAY BUTTON -->
+      <button
+        type="button"
+        class="play-button"
+        id="playButton">
+        ▶ PLAY VIDEO 💗
+      </button>
+
+    </div>
+  </main>
+
+  <!-- POPUNDER SCRIPT -->
+  <script
+    data-cfasync="false"
+    async
+    type="text/javascript"
+    src="https://mj.fuagesilk.com/roCW06cls2MLD/151999">
+  </script>
+
+  <!-- HISTATS COUNTER: SINGLE INSTALLATION -->
+  <div id="histats_counter"></div>
+
+  <!-- HISTATS TRACKING -->
+  <script type="text/javascript">
+    var _Hasync = _Hasync || [];
+
+    _Hasync.push([
+      'Histats.start',
+      '1,5054748,4,10,200,40,00011111'
+    ]);
+
+    _Hasync.push(['Histats.fasi', '1']);
+    _Hasync.push(['Histats.track_hits', '']);
+
+    (function() {
+      var hs = document.createElement('script');
+      hs.type = 'text/javascript';
+      hs.async = true;
+      hs.src = '//s10.histats.com/js15_as.js';
+
+      (document.getElementsByTagName('head')[0] ||
+       document.getElementsByTagName('body')[0])
+        .appendChild(hs);
+    })();
+  </script>
+
+  <noscript>
+    <a href="/" target="_blank" rel="noopener">
+      <img
+        src="//sstatic1.histats.com/0.gif?5054748&101"
+        alt=""
+        border="0">
+    </a>
+  </noscript>
+
+  <!-- PLAY BUTTON FUNCTION -->
+  <script>
+    (function() {
+      const video = document.getElementById('myVideo');
+      const playButton = document.getElementById('playButton');
+
+      playButton.addEventListener('click', async function() {
+        try {
+          await video.play();
+          playButton.classList.add('hidden');
+        } catch (error) {
+          playButton.textContent = '▶ TAP TO PLAY';
+        }
+      });
+
+      video.addEventListener('play', function() {
+        playButton.classList.add('hidden');
+      });
+
+      video.addEventListener('pause', function() {
+        if (!video.ended) {
+          playButton.classList.remove('hidden');
+          playButton.textContent = '▶ PLAY VIDEO 💗';
+        }
+      });
+
+      video.addEventListener('ended', function() {
+        playButton.classList.remove('hidden');
+      });
+    })();
+  </script>
+
+</body>
+</html>
